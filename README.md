@@ -1,4 +1,4 @@
-<h1 align="center">📊 Admin Dashboard - Tabler.io Based UI</h1>
+<h1 align="center">📊 Admin Dashboard (Tabler.io Based UI)</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/UI%20Framework-Tabler.io-blueviolet?style=for-the-badge" />
