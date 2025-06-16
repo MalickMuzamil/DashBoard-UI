@@ -1,0 +1,70 @@
+
+#calendar {
+  max-width: 1285px;
+  margin: 20px auto;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  margin-top:7rem;
+}
+
+@media (min-width: 576px)
+{.modal-dialog-centered{
+  min-height: calc(60% - 6.5rem);
+}
+}
+
+.fc-button-group>:first-child {
+  margin-left: 0;
+  margin: 0px 5px !important;
+  background: black;
+  color: white;
+}
+
+[type=button]:not(:disabled){
+  cursor: pointer;
+  margin: 0px 5px !important;
+  background: black;
+  color: white;
+  border-radius: 12px !important;
+}
+
+.fc-state-disabled{
+  background:black ;
+  border-radius: 12px !important;
+  color: white;
+}
+
+@media (max-width: 320px){
+  .fc button , .fc-table {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 320px){
+  .fc-center{
+    margin-top:20px;
+  }
+}
+
+.fc-content{
+  text-align: center;
+}
+
+.fc button{
+  /* padding: 0px; */
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+h2{
+  font-size:30px ;
+}
+
+.fc-toolbar.fc-header-toolbar {
+  margin-bottom: 3em;
+}
